@@ -59,5 +59,9 @@ Thumbs.db.meta
 # MacOS
 *.DS_Store
 
+#Ignore vuforia
+Packages/com.ptc.vuforia.engine-10.9.3.tgz
+/Packages/com.ptc.vuforia.engine-10.9.3.tgz
+
 # VS Code
 *.vscode

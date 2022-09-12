@@ -90,7 +90,10 @@ public class Enemy : MonoBehaviour
             if (WaypointList.Any())
             {
                 WaypointList.Remove(WaypointList.First());
-                NextPoint = WaypointList.First();
+                if (WaypointList.Any())
+                {
+                    NextPoint = WaypointList.First();
+                }
             }
         }
     }

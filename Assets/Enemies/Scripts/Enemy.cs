@@ -53,7 +53,7 @@ public class Enemy : MonoBehaviour
             Vector3 relativePos = NextPoint.transform.position - transform.position;
             moveDirection = (NextPoint.transform.position - transform.position).normalized;
             rotationGoal = Quaternion.LookRotation(relativePos);
-            transform.rotation = Quaternion.Slerp(transform.rotation, rotationGoal, turnSpeed);
+            transform.rotation = Quaternion.Slerp(transform.rotation, rotationGoal, turnSpeed * Time.deltaTime);
         }
     }
 

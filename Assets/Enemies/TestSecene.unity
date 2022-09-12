@@ -824,6 +824,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5017439867973782197, guid: e91f2dae8f8bf804493666e0ce7fddc3, type: 3}
+      propertyPath: turnSpeed
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017439867973782197, guid: e91f2dae8f8bf804493666e0ce7fddc3, type: 3}
       propertyPath: WaypointList.Array.size
       value: 13
       objectReference: {fileID: 0}
@@ -1300,6 +1304,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5017439867973782197, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
+      propertyPath: turnSpeed
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017439867973782197, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
       propertyPath: WaypointList.Array.size
       value: 13
       objectReference: {fileID: 0}
@@ -1462,6 +1470,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5017439867973782197, guid: e91f2dae8f8bf804493666e0ce7fddc3, type: 3}
+      propertyPath: turnSpeed
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017439867973782197, guid: e91f2dae8f8bf804493666e0ce7fddc3, type: 3}
       propertyPath: WaypointList.Array.size
       value: 13
       objectReference: {fileID: 0}
@@ -1577,6 +1589,10 @@ PrefabInstance:
     - target: {fileID: 4767974470022797880, guid: e91f2dae8f8bf804493666e0ce7fddc3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017439867973782197, guid: e91f2dae8f8bf804493666e0ce7fddc3, type: 3}
+      propertyPath: turnSpeed
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 5017439867973782197, guid: e91f2dae8f8bf804493666e0ce7fddc3, type: 3}
       propertyPath: WaypointList.Array.size
@@ -2033,6 +2049,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5017439867973782197, guid: e91f2dae8f8bf804493666e0ce7fddc3, type: 3}
+      propertyPath: turnSpeed
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017439867973782197, guid: e91f2dae8f8bf804493666e0ce7fddc3, type: 3}
       propertyPath: WaypointList.Array.size
       value: 13
       objectReference: {fileID: 0}
@@ -2195,6 +2215,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5017439867973782197, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
+      propertyPath: turnSpeed
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017439867973782197, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
       propertyPath: WaypointList.Array.size
       value: 13
       objectReference: {fileID: 0}
@@ -2310,6 +2334,10 @@ PrefabInstance:
     - target: {fileID: 4767974470022797880, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017439867973782197, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
+      propertyPath: turnSpeed
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 5017439867973782197, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
       propertyPath: WaypointList.Array.size
@@ -2474,6 +2502,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5017439867973782197, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
+      propertyPath: turnSpeed
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017439867973782197, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
       propertyPath: WaypointList.Array.size
       value: 13
       objectReference: {fileID: 0}
@@ -2589,6 +2621,10 @@ PrefabInstance:
     - target: {fileID: 4767974470022797880, guid: e91f2dae8f8bf804493666e0ce7fddc3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017439867973782197, guid: e91f2dae8f8bf804493666e0ce7fddc3, type: 3}
+      propertyPath: turnSpeed
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 5017439867973782197, guid: e91f2dae8f8bf804493666e0ce7fddc3, type: 3}
       propertyPath: WaypointList.Array.size
@@ -2910,6 +2946,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5017439867973782197, guid: e91f2dae8f8bf804493666e0ce7fddc3, type: 3}
+      propertyPath: turnSpeed
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017439867973782197, guid: e91f2dae8f8bf804493666e0ce7fddc3, type: 3}
       propertyPath: WaypointList.Array.size
       value: 13
       objectReference: {fileID: 0}
@@ -3025,6 +3065,10 @@ PrefabInstance:
     - target: {fileID: 4767974470022797880, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017439867973782197, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
+      propertyPath: turnSpeed
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 5017439867973782197, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
       propertyPath: WaypointList.Array.size
@@ -3234,6 +3278,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5017439867973782197, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
+      propertyPath: turnSpeed
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017439867973782197, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
       propertyPath: WaypointList.Array.size
       value: 13
       objectReference: {fileID: 0}
@@ -3349,6 +3397,10 @@ PrefabInstance:
     - target: {fileID: 4767974470022797880, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017439867973782197, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
+      propertyPath: turnSpeed
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 5017439867973782197, guid: 9632172f6310e4e4db04e0d72ddcc8fa, type: 3}
       propertyPath: WaypointList.Array.size

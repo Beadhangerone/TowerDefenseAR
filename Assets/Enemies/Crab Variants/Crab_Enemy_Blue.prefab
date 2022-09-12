@@ -233,7 +233,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8255768088259071388}
   - component: {fileID: 6954140193632991509}
-  - component: {fileID: 8013028410671544700}
   m_Layer: 0
   m_Name: Legs
   m_TagString: Untagged
@@ -344,22 +343,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00010417402, y: -0.002723787, z: -0.006754846}
     m_Extent: {x: 0.019401366, y: 0.019180287, z: 0.010162599}
   m_DirtyAABB: 0
---- !u!54 &8013028410671544700
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619241103937997397}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &2020490216223415409
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,7 +871,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7342711902602635385}
   - component: {fileID: 6035415907898130783}
-  - component: {fileID: 8924074261013415178}
   m_Layer: 0
   m_Name: Mandibles
   m_TagString: Untagged
@@ -999,22 +981,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00012851227, y: -0.009552839, z: 0.002476559}
     m_Extent: {x: 0.006544118, y: 0.0061483746, z: 0.005151652}
   m_DirtyAABB: 0
---- !u!54 &8924074261013415178
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4147871797490548352}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &4148949326524585148
 GameObject:
   m_ObjectHideFlags: 0
@@ -1382,7 +1348,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8967970021975652329}
   - component: {fileID: 5980843641279389825}
-  - component: {fileID: 8069785233524511401}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -1494,22 +1459,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0009207516, y: 0.00006280374, z: 0.0006986754}
     m_Extent: {x: 0.006031644, y: 0.008004743, z: 0.0063734045}
   m_DirtyAABB: 0
---- !u!54 &8069785233524511401
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5580080623074220475}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &5613712068291602647
 GameObject:
   m_ObjectHideFlags: 0
@@ -2026,7 +1975,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2640362861859160257}
   - component: {fileID: 5525093168220768920}
-  - component: {fileID: 4926209684946993973}
   m_Layer: 0
   m_Name: Tail
   m_TagString: Untagged
@@ -2137,22 +2085,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0006724569, y: 0.004126719, z: 0.006250356}
     m_Extent: {x: 0.0014848191, y: 0.0050715497, z: 0.0064026634}
   m_DirtyAABB: 0
---- !u!54 &4926209684946993973
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7709516018996183855}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &8316332786057693306
 GameObject:
   m_ObjectHideFlags: 0

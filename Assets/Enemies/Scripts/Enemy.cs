@@ -1,11 +1,9 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.TextCore.Text;
+using Random = UnityEngine.Random;
+
 
 public class Enemy : MonoBehaviour
 {
@@ -21,6 +19,8 @@ public class Enemy : MonoBehaviour
     public ParticleSystem.MinMaxGradient damageColor;
     private Vector3 moveDirection;
     private Quaternion rotationGoal;
+    private bool isDead;
+    public Material deathMaterial;
 
     // Start is called before the first frame update
     void Start()
@@ -33,15 +33,18 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        findAndMoveToWaypoint();
-        if (Health <= 0)
+        if (!isDead)
         {
-            Die();
-        }
+            findAndMoveToWaypoint();
+            if (Health <= 0)
+            {
+                Die();
+            }
 
-        if (!WaypointList.Any())
-        {
-            Die();
+            if (!WaypointList.Any())
+            {
+                Die();
+            } 
         }
     }
     
@@ -59,8 +62,25 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
+        isDead = true;
         Instantiate(deathParticle, transform.position, Quaternion.Euler(-90, 0, 0));
+        for (int i = 0; i < 5; i++)
+        {
+            GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            cube.transform.position = gameObject.transform.position;
+            cube.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+            cube.AddComponent<Rigidbody>();
+            Rigidbody cubeBody = cube.GetComponent<Rigidbody>();
+            cubeBody.mass = 0.1f;
+            var randomEx = Random.Range(2, 10);
+            cubeBody.AddForce(cube.transform.up * randomEx);
+            var randomEx2 = Random.Range(-4, 4);
+            cubeBody.AddForce(cube.transform.position * randomEx2);
+            cube.GetComponent<Renderer>().material = deathMaterial;
+            Destroy(cube, 2);
+        }
         Destroy(gameObject);
+  
     }
     private void OnTriggerEnter(Collider collision)
     {
@@ -70,7 +90,6 @@ public class Enemy : MonoBehaviour
             {
                 WaypointList.Remove(WaypointList.First());
                 NextPoint = WaypointList.First();
-                TakeDamage(1);
             }
         }
     }
@@ -79,9 +98,9 @@ public class Enemy : MonoBehaviour
     {
         //uncomment this when using :)
         Health = Health - amount;
-        Debug.Log("ouch! HP: "+Health);
         GameObject particles = Instantiate(damageParticle, transform.position, Quaternion.Euler(-90, 0, 0));
         var ps = particles.GetComponent<ParticleSystem>().main;
         ps.startColor = new Color(damageColor.color.r, damageColor.color.g, damageColor.color.b);
     }
+    
 }

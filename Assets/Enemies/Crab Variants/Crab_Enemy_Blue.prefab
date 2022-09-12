@@ -1338,6 +1338,7 @@ MonoBehaviour:
       m_NumAlphaKeys: 2
     m_ColorMin: {r: 0, g: 0, b: 0, a: 0}
     m_ColorMax: {r: 0, g: 0.81472516, b: 1, a: 0}
+  deathMaterial: {fileID: 2100000, guid: d6cb8959975ae6f4489f571fcb277627, type: 2}
 --- !u!1 &5580080623074220475
 GameObject:
   m_ObjectHideFlags: 0

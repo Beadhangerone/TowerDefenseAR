@@ -22,7 +22,7 @@ public class tower : MonoBehaviour
     {
         Debug.Log(_objectsInArea.Count);
         // inflict damage
-        _objectsInArea.ForEach(obj => { obj.GetComponent<Enemy>().TakeDamage(20); });
+        _objectsInArea.ForEach(obj => { obj.GetComponent<Enemy>().TakeDamage(20, "red"); });
     }
     private void OnTriggerEnter(Collider otherCol)
     {

@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
     public float Speed = 100;
     public List<GameObject> WaypointList;
     private Rigidbody Body;
+    public String damageType;
     public float turnSpeed;
     public GameObject deathParticle;
     public GameObject damageParticle;
@@ -94,13 +95,16 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int amount)
+    public void TakeDamage(int amount, String damageTypeFire)
     {
         //uncomment this when using :)
-        Health = Health - amount;
-        GameObject particles = Instantiate(damageParticle, transform.position, Quaternion.Euler(-90, 0, 0));
-        var ps = particles.GetComponent<ParticleSystem>().main;
-        ps.startColor = new Color(damageColor.color.r, damageColor.color.g, damageColor.color.b);
+        if (damageTypeFire.Equals(damageType))
+        {
+            Health = Health - amount;
+            GameObject particles = Instantiate(damageParticle, transform.position, Quaternion.Euler(-90, 0, 0));
+            var ps = particles.GetComponent<ParticleSystem>().main;
+            ps.startColor = new Color(damageColor.color.r, damageColor.color.g, damageColor.color.b);
+        }
     }
     
 }

@@ -607,7 +607,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200490764}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -898,13 +898,25 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8555523249811327488, guid: 57fccfed7dd07b741823c97a59dc6ae5, type: 3}
+      propertyPath: spawnDelaySeconds
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8555523249811327488, guid: 57fccfed7dd07b741823c97a59dc6ae5, type: 3}
       propertyPath: enemyVariants.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8555523249811327488, guid: 57fccfed7dd07b741823c97a59dc6ae5, type: 3}
       propertyPath: waypointsList.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8555523249811327488, guid: 57fccfed7dd07b741823c97a59dc6ae5, type: 3}
+      propertyPath: enemyVariants.Array.data[1]
+      value: 
+      objectReference: {fileID: 5287488919177740418, guid: 32e0a7ba904e41640a944d99d38f0321, type: 3}
+    - target: {fileID: 8555523249811327488, guid: 57fccfed7dd07b741823c97a59dc6ae5, type: 3}
+      propertyPath: enemyVariants.Array.data[2]
+      value: 
+      objectReference: {fileID: 5287488919177740418, guid: e91f2dae8f8bf804493666e0ce7fddc3, type: 3}
     - target: {fileID: 8555523249811327488, guid: 57fccfed7dd07b741823c97a59dc6ae5, type: 3}
       propertyPath: waypointsList.Array.data[0]
       value: 

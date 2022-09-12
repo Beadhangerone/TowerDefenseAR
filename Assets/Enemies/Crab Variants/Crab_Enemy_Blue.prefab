@@ -1273,6 +1273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 0.1
   WaypointList: []
+  damageType: blue
   turnSpeed: 5
   deathParticle: {fileID: 353557840480952606, guid: adee2f4ee81db7f49993597bb603a98f, type: 3}
   damageParticle: {fileID: 353557840480952606, guid: bca78fc16b1576e4492aaa8e3d93ffc4, type: 3}

@@ -27,7 +27,7 @@ public class GameStart : MonoBehaviour {
     void onGameDetectM1() {
         childrenofOG[1].gameObject.SetActive(false);
         childrenofOG[2].gameObject.SetActive(false);
-
+        Debug.Log("Ssssssssssssssssssssssssssssssssssss");
         startGame(0);
     }
     void onGameDetectM2() {

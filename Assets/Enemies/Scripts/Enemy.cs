@@ -75,10 +75,11 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void TakeDamage(int amount)
+    public void TakeDamage(int amount)
     {
         //uncomment this when using :)
-        //   Health = Health - amount;
+        Health = Health - amount;
+        Debug.Log("ouch! HP: "+Health);
         GameObject particles = Instantiate(damageParticle, transform.position, Quaternion.Euler(-90, 0, 0));
         var ps = particles.GetComponent<ParticleSystem>().main;
         ps.startColor = new Color(damageColor.color.r, damageColor.color.g, damageColor.color.b);

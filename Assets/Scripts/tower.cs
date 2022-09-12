@@ -10,7 +10,7 @@ public class tower : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating(nameof(Shoot), 1f, 1f);  
+        InvokeRepeating(nameof(Shoot), 0.5f, 1f);  
     }
 
     // Update is called once per frame
@@ -22,7 +22,7 @@ public class tower : MonoBehaviour
     {
         Debug.Log(_objectsInArea.Count);
         // inflict damage
-        //_objectsInArea.ForEach(obj => Debug.Log(obj.damage()));
+        _objectsInArea.ForEach(obj => { obj.GetComponent<Enemy>().TakeDamage(20); });
     }
     private void OnTriggerEnter(Collider otherCol)
     {
